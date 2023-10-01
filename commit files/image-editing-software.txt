@@ -1,0 +1,15 @@
+Image-editing software: PicsArt (mobile)
+
+Text ->
+	# Font: Roboto
+	# Colours:
+		- Text: #304fff
+		- Black background: #000207
+		- Other (sky-blue): #42a3ff
+
+Effects -> Colours -> Invert ->
+		# Standard: Normal
+		# Hue: 209
+
+Current works: 
+1) team-positions.png (v 0.1 - 01 October 2023)
