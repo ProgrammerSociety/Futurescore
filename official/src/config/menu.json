@@ -1,0 +1,38 @@
+{
+    "main": [
+      {
+        "name": "Home",
+        "url": "/"
+      },
+      {
+        "name": "About",
+        "url": "/about"
+      },
+      {
+        "name": "Pages",
+        "url": "",
+        "hasChildren": true,
+        "children": [
+          {
+            "name": "Contact",
+            "url": "/contact"
+          },
+          {
+            "name": "Team",
+            "url": "/team"
+          },
+          {
+            "name": "Search",
+            "url": "/search"
+          }
+        ]
+      }
+    ],
+    "footer": [
+      {
+        "name": "Privacy Policy",
+        "url": "/privacy-policy"
+      }
+    ]
+  }
+  

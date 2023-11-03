@@ -1,0 +1,47 @@
+---
+// Welcome to Astro! Everything between these triple-dash code fences
+// is your "component frontmatter". It never runs in the browser.
+console.log('This runs in your terminal, not the browser!');
+---
+<!-- Below is your "component template." It's just HTML, but with
+     some magic sprinkled in to help you build great templates. -->
+
+     <!DOCTYPE html>
+     <html lang="en">
+
+     <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Intranet</title>
+      <link rel="stylesheet" href="/src/config/intra-style.css">
+  </head>
+        
+<h1>Basic [for workforce]</h1>
+
+<br>
+<body class="h-full">
+  <a href="/official/pages/index.astro">Official website here</a>
+
+    <h2 class="h2"><u>Team Tasks</u></h2>
+    <q><i>when done remove your task from this page</i></q>
+      <ol class="team_tasks">
+        <li>- Amjad: create 1 navbar & 1 footer to call on all pages</li>
+        <li>- Anza: Fill FAQs <a href="/official/pages/contact.astro">here</a></li>
+        <li>- Ali: Ensure all hrefs are linking to the correct available page</li>
+      </ol>
+  <br>
+
+  <iframe src="/src/content/homepage/hometext.astro" width="650" height="500"></iframe>
+</body>
+<a href="./about">About</a>
+<br>
+<a href="./login">Login</a>
+</html>
+<style>
+  h1 {
+    color: rgb(255, 8, 0);
+  }
+</style>
+
+</html>
