@@ -1,6 +1,4 @@
 // server file
-// planned initial commit: 01 Nov 2023
-// actual commit date: 02 Nov 2023
 
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config() //allows us to edit db schemas

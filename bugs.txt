@@ -1,16 +1,2 @@
-31/10/2023 - 
-CODE:
-app.use(logger)
-
-function logger(req, res, next) {
-    console.log(req.originalUrl)
-    next()
-}
-
-ERROR:
-C:\Users\suzan\Desktop\Anza Tshilidzi photos\Business Intelligence\FS\Software Development\Front-end\By Anza\Official Website\routes\users.js:5
-router.use(logger)
-           ^
-ReferenceError: logger is not defined
-
+None 25/11/23
 
