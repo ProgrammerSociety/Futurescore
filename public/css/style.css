@@ -8241,6 +8241,12 @@ button:focus {
     display: inline-block;
     margin-right: 10px; }
 
+    .foi-footer .social-menu img{
+      max-width: 100px;
+      height :40px;
+      gap: 20px;
+    }    
+
 .contact-form-wrapper {
   margin-bottom: 120px; }
 
