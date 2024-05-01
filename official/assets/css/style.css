@@ -620,6 +620,32 @@ h6, .h6 {
   font-weight: 300;
   line-height: 1.2; }
 
+.display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.display-6 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.display-7 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.display-8 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+
+.display-9 {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -8728,5 +8754,127 @@ html {
   font-weight: 700;
   line-height: 1;
   color: #ffffff; }
+
+.center {
+  margin: auto auto; }
+
+
+.box {
+  width: 45%;
+  height: 50%;
+  max-height: 50vh;}
+
+.box > .search-form {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  border: 1px solid #e0e0e0;
+  height: 52.444px;
+  width: 100%;
+  padding: 3px; }
+
+
+.search-form::after {
+  line-height: 50px; }
+
+.box > .search-form > input {
+  height: 45px;
+  width: 97%; }
+
+
+.box > .search-form > button {
+  text-align: center;
+  height: 45px;
+  line-height: 50%;
+}
+
+
+.box > p.group-label {
+  margin: 0px; }
+
+.box > p.info {
+  padding-top: 5px; }
+
+.easy-search {  
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5% 5%;
+  height: 140px;
+  width: 80%;
+  translate: 12% 0%;
+}
+
+
+.easy-search > div > a { 
+  background-color: #122021;
+  box-sizing: border-box;
+  color: #fff;
+  margin-top: 1px;
+  width: 97%;
+  height: 97%;
+}
+
+
+.easy-search > div > .easy-search-hv:hover {
+  color: white;
+  width: 100%;
+  height: 100%;
+  animation: 3s ease-in-out;
+}
+
+.hollow-border:hover {
+  border: none;
+}
+
+.hollow-border {
+  border-width: 1px;
+  border-style: inset;
+  border-color: rgba(0, 0, 0, .2);
+  border-radius: 0.25rem;
+  height: 50px;
+  padding-bottom: 2px;
+}
+
+  /* IPad/Tablet */
+  @media (max-width: 986px) {
+    .hollow-border {
+      height: 100%;}
+  
+    .box {
+      gap: 2px;
+      width: 70%; }}
+
+
+  /* other handheld devices */
+  @media (max-width: 676px) {
+    .box {
+      gap: 2px;
+      width: 80%; }
+
+    .box > .search-form {
+      display: grid;
+      width: inherit;
+      grid-template-columns: 80% 20%;}
+
+    .box > .search-form > input {
+      width: 97%;}
+
+    .hollow-border {
+      height: 100%;}
+
+    .box > .search-form > button {
+      translate: 0% 0%;}}
+
+
+  @media (max-width: 480px) {
+    .box {
+      gap: 2px;
+      width: 90%; }}
+
+  @media (max-width: 380px) {
+    .box {
+      gap: 2px;
+      width: 100%; }}
+
+
 
 /*# sourceMappingURL=style.css.map */
