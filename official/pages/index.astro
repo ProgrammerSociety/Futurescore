@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-    <link rel="stylesheet" href="assets/vendors/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/official/assets/vendors/font-awesome/css/all.min.css">
     <link rel="stylesheet" href="/official/assets/css/style.css">
+    <link rel="icon" href="/official/assets/images/futurescore-favicon_updated.jpeg" type="image/x-icon"/>
 </head>
 
 <body>
@@ -44,7 +45,23 @@
                     </ul>
                 </div>
             </nav>
-            
+ 
+
+      <hr/>
+      <div class="box center">
+        <p class="display-7">Search on our website</p>
+        <p class="group-label lead">Search</p>
+        <form class="search-form" action="/search/" method="POST">
+              <input type="search" class="form-control" id="search" name="search" required>
+              <button class="btn btn-primary btn-auth-submit row-1" type="submit">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <i class="fa-solid fa-magnifying-glass fa-bounce"></i>
+              </button>
+        </form>
+        <p class="info"> You will get results from universities, faculties, courses, careers, and more.</p>
+      </div>
+
+
             <div class="header-content">
                 <div class="row">
                     <div class="col-md-6">
@@ -59,6 +76,18 @@
             </div>
         </div>
     </header>
+
+
+      <div class="easy-search-box box center"> 
+        <h5 class="text-center">Easy Search</h5>
+        <div class="easy-search text-center border-gray-50"> 
+          <div class="hollow-border"><a href="/" class="btn easy-search-hv">Find out what to study</a></div>
+          <div class="hollow-border"><a href="/" class="btn easy-search-hv">Course requirements</a></div>
+          <div class="hollow-border"><a href="/" class="btn easy-search-hv">Ask a specific question</a></div>
+          <div class="hollow-border"><a href="/" class="btn easy-search-hv">Careers</a></div>
+        </div>
+      </div>
+  
 
     <section class="py-5 mb-5">
         <div class="container">
@@ -191,6 +220,7 @@
             </div>
         </div>
     </footer>
+    <script src="/official/assets/vendors/font-awesome/css/all.min.css"></script>
     <script src="/official/assets/vendors/jquery/jquerymin.js"></script>
     <script src="/official/assets/vendors/popper.js/popper.min.js"></script>
     <script src="/official/assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
